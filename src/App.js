@@ -25,7 +25,7 @@ function App() {
                 style={{height: 60, marginBottom: 30}}/>
             <h1 style={{fontWeight: 900}}>Emploi du Temps</h1>
             <h2 style={{fontWeight: 600}}>
-                L3 INFO
+                M1 INFO
             </h2>
             <br/>
             <div style={{
@@ -35,20 +35,15 @@ function App() {
                 justifyContent: 'center',
                 alignItems: 'center'
             }}>
-                <a href="webcal://ade6-usmb-ro.grenet.fr/jsp/custom/modules/plannings/direct_cal.jsp?resources=4249&projectId=2&calType=ical&login=iCalExport&password=73rosav&lastDate=2030-08-14" className="btn btn-store">
+                <a href="webcal://lab.nocturne.app/api/edt/M1/G1" className="btn btn-store">
                     <span className="fa fa-mobile fa-3x pull-left"></span>
                     <span className="btn-label">Ajout</span>
-                    <span className="btn-caption">INFO-1</span>
+                    <span className="btn-caption">GROUPE 1</span>
                 </a>
-                <a style={{marginTop: 10}} href="webcal://ade6-usmb-ro.grenet.fr/jsp/custom/modules/plannings/direct_cal.jsp?resources=4250&projectId=2&calType=ical&login=iCalExport&password=73rosav&lastDate=2030-08-14" className="btn btn-store">
+                <a style={{marginTop: 10}} href="webcal://lab.nocturne.app/api/edt/M1/G2" className="btn btn-store">
                     <span className="fa fa-mobile fa-3x pull-left"></span>
                     <span className="btn-label">Ajout</span>
-                    <span className="btn-caption">INFO-2</span>
-                </a>
-                <a style={{marginTop: 10}} href="webcal://ade6-usmb-ro.grenet.fr/jsp/custom/modules/plannings/direct_cal.jsp?resources=2334&projectId=2&calType=ical&login=iCalExport&password=73rosav&lastDate=2030-08-14" className="btn btn-store">
-                    <span className="fa fa-mobile fa-3x pull-left"></span>
-                    <span className="btn-label">Ajout</span>
-                    <span className="btn-caption">INFO-3</span>
+                    <span className="btn-caption">GROUPE 2</span>
                 </a>
             </div>
         </div>
