@@ -25,7 +25,7 @@ function App() {
                 style={{height: 60, marginBottom: 30}}/>
             <h1 style={{fontWeight: 900}}>Emploi du Temps</h1>
             <h2 style={{fontWeight: 600}}>
-                M1 INFO
+                M2 INFO
             </h2>
             <br/>
             <div style={{
@@ -35,16 +35,11 @@ function App() {
                 justifyContent: 'center',
                 alignItems: 'center'
             }}>
-                <a href="webcal://lab.nocturne.app/api/edt/M1/G1" className="btn btn-store">
+                <a href="webcal://lab.nocturne.app/api/edt/M2" className="btn btn-store">
                     <span className="fa fa-mobile fa-3x pull-left"></span>
                     <span className="btn-label">Ajout</span>
-                    <span className="btn-caption">GROUPE 1</span>
-                </a>
-                <a style={{marginTop: 10}} href="webcal://lab.nocturne.app/api/edt/M1/G2" className="btn btn-store">
-                    <span className="fa fa-mobile fa-3x pull-left"></span>
-                    <span className="btn-label">Ajout</span>
-                    <span className="btn-caption">GROUPE 2</span>
-                </a>
+                    <span className="btn-caption">Master 2 - Alternants</span>
+                </a>  
             </div>
         </div>
     );
